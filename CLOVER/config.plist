@@ -12,8 +12,20 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
-				<key>FixTMR</key>
+				<key>AddMCHC</key>
+				<true/>
+				<key>FakeLPC</key>
 				<false/>
+				<key>FixHPET</key>
+				<true/>
+				<key>FixIPIC</key>
+				<true/>
+				<key>FixRTC</key>
+				<true/>
+				<key>FixShutdown</key>
+				<true/>
+				<key>FixTMR</key>
+				<true/>
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -287,7 +299,7 @@
 					<key>Comment</key>
 					<string>change XHC _DSM to XDSM</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					FCpfRFNNDEFEQkcNWEhD
@@ -301,7 +313,7 @@
 					<key>Comment</key>
 					<string>change GPRW to XPRW</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					FEAGR1BSVwI=
@@ -315,7 +327,7 @@
 					<key>Comment</key>
 					<string>change _S3D to XS3D</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1MzRA==
@@ -329,7 +341,7 @@
 					<key>Comment</key>
 					<string>change _S4D to XS4D</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1M0RA==
@@ -343,7 +355,7 @@
 					<key>Comment</key>
 					<string>change _S3W to XS3W</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1MzVw==
@@ -357,7 +369,7 @@
 					<key>Comment</key>
 					<string>change _S4W to XS4W</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1M0Vw==
@@ -418,7 +430,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v -xcpm dart=0 slide=0 darkwake=0 nv_disable=1 -lilubetaall -wegbeta shikigva=40 debug=0x100 keepsyms=1</string>
+		<string>-v -xcpm dart=0 slide=0 darkwake=0 nv_disable=1 shikigva=40 debug=0x100 keepsyms=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverDoRecovery</key>
@@ -551,6 +563,8 @@
 				<data>
 				Ym9hcmQtaWQ=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>AppleGraphicsDevicePolicy</string>
 				<key>Replace</key>
