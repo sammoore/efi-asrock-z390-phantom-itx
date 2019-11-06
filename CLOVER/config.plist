@@ -313,7 +313,7 @@
 					<key>Comment</key>
 					<string>change GPRW to XPRW</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					FEAGR1BSVwI=
