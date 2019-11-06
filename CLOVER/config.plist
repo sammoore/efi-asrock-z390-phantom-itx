@@ -476,11 +476,11 @@
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
+			<true/>
+			<key>FixOwnership</key>
 			<false/>
 			<key>HighCurrent</key>
-			<false/>
-			<key>Inject</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>GUI</key>
