@@ -558,7 +558,7 @@
 				<key>Comment</key>
 				<string>Black Screen Patch Vega 56/64, RX580 etc. (c)Pike R. Alpha</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				Ym9hcmQtaWQ=
